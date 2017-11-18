@@ -1,0 +1,76 @@
+VARIABLES LINGUISTICAS (Estas serian las variables linguisticas de entrada, revisalo si esta bien.
+			En parentesis estan los valores que podrian tener)
+Entrada
+	funciones	[trapezoidal, 		triangular,  triangular	      , triangular, trapezoidal]
+	rango		[0, 10,23,		17, 30, 43,  37, 50, 63       , 57, 70, 83, 77, 90, 100]
+	->1preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho) 
+	->11preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->21preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->31preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->41preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->51preguntas_TI(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+Salida
+	Carrera(Telecomunicaiones, Sistemas)
+	funciones[trapezoidal, trapezoidal]
+	rango	 [0, 25, 60,	55, 75, 100]
+Regla
+	1MDT y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MD Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MEI Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MD Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MEI Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MD Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MEI Y 41MDT Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MDT Y 41MD Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MDT Y 41MEI Y 51MDT -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MD -> telecomunicaciones
+	1MDT y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MEI -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MD Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MEI Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MD Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MEI Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MD Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MEI Y 41MDT Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MDT Y 41MD Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MDT Y 41MEI Y 51MDT -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MD -> telecomunicaciones
+	1MD y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MEI -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MD Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MEI Y 21MDT Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MD Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MEI Y 31MDT Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MD Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MEI Y 41MDT Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MDT Y 41MD Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MDT Y 41MEI Y 51MDT -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MD -> telecomunicaciones
+	1MEI y 11MDT Y 21MDT Y 31MDT Y 41MDT Y 51MEI -> telecomunicaciones
+*********************************************************************************************************
+	->2preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	funciones	[trapezoidal, 		triangular,  triangular	      , triangular, trapezoidal]
+	rango		[0, 10,23,		17, 30, 43,  37, 50, 63       , 57, 70, 83, 77, 90, 100]
+	->12preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->22preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->32preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->42preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->52preguntas_MP(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+Salida
+	Carrera(Mecatronica, Electronico)
+	funciones[trapezoidal, trapezoidal]
+	rango	 [0, 25, 60,	55, 75, 100]
+*********************************************************************************************************
+	->5preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	funciones	[trapezoidal, 		triangular,  triangular	      , triangular, trapezoidal]
+	rango		[0, 10,23,		17, 30, 43,  37, 50, 63       , 57, 70, 83, 77, 90, 100]
+	->15preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->25preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->35preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->45preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+	->55preguntas_COM(Me disgusta totalmente, Me disgusta, Me es indiferente, Me gusta, Me gusta mucho)
+Salida
+	Carrera(Financiera,    Economica,   Comercial)
+	funciones[trapezoidal, trapezoidal, trapezoidal]
+	rango	 [0, 25, 35,   30, 40, 60, 70, 65, 75, 100 ]
+*********************************************************************************************************
